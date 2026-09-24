@@ -1,0 +1,26 @@
+# =====================================================================
+# KiCad Gitignore Template
+# =====================================================================
+
+# ---------------------------------------------------------------------
+# Temporary & Backup Files (Do NOT track)
+# ---------------------------------------------------------------------
+# Backup files created automatically by KiCad
+*-bak
+*.bak
+*.bck
+*.kicad_pcb-bak
+
+# Autosave/recovery temporary files
+*.wbk
+_autosave-*
+*.tmp
+
+# Lock files (indicates the file is currently open in KiCad)
+*.lck
+
+# ---------------------------------------------------------------------
+# Local User Settings (Do NOT track)
+# ---------------------------------------------------------------------
+# Stores your local window positions, zoom levels, and personal paths
+*.kicad_prl
