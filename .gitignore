@@ -19,6 +19,16 @@ _autosave-*
 # Lock files (indicates the file is currently open in KiCad)
 *.lck
 
+# Archived project backups folder
+*-backups/
+
+# ---------------------------------------------------------------------
+# KiCad Local Version Control History (Do NOT track)
+# ---------------------------------------------------------------------
+# Prevents KiCad's internal local backup Git repo from clashing 
+# with your primary project Git repository.
+.history/
+
 # ---------------------------------------------------------------------
 # Local User Settings (Do NOT track)
 # ---------------------------------------------------------------------
