@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "power-electronics-trainer-rescue") (type "Legacy") (uri "${KIPRJMOD}/power electronics trainer-rescue.lib") (options "") (descr ""))
+	(lib (name "power electronics trainer-cache") (type "Legacy") (uri "/media/abdullah/Data/Abdullah/projects/power electronics trainer/lite/v3/circuits/power electronics trainer/power electronics trainer-cache.lib") (options "") (descr "Legacy project cache library"))
+)
