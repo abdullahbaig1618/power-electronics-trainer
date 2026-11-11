@@ -1,0 +1,115 @@
+(footprint "Banana socket 2 mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "37f8d44d-0e34-4ded-bf4d-4a0ce218b573")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Banana socket 2 mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d38e655-2605-4f67-87a4-b8048f28d6be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c49e5b81-71dc-4242-ab77-dfb15fbfc29f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ace09c6-3e2e-4964-9734-34894760dd90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5aa32db1-952c-43e7-89b1-3edf63e09f8c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 4.5 4.5)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.2222222222)
+		(uuid "2e9efa46-5fda-4ea1-bfc1-00b26a6660f1")
+	)
+	(embedded_fonts no)
+	(model "D:/Setups/KiCad/KiCad Libraries/Banana Sockets/AMASS_28.110.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+	(model "D:/Setups/KiCad/KiCad Libraries/Banana Sockets/AMASS_28.110_gold.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+	(model "D:/Setups/KiCad/KiCad Libraries/Banana Sockets/AMASS_28.110_soft_gold.step"
+		(offset
+			(xyz 0 0 1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
