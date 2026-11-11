@@ -1,0 +1,15 @@
+LTspice 26.0.1 for Windows
+Circuit: D:\Abdullah\projects\power electronics trainer\lite\v4\simulations\buck.net
+Start Time: Wed Nov 11 11:55:41 2026
+solver = Alternate
+Maximum thread count: 32
+tnom = 27
+temp = 27
+method = Gear
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 16.474 seconds.
+
+Files loaded:
+D:\Abdullah\projects\power electronics trainer\lite\v4\simulations\buck.net
+C:\Users\Abdullah Baig\AppData\Local\LTspice\lib\cmp\standard.mos
+

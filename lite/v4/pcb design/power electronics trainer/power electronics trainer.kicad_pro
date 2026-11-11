@@ -175,6 +175,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -186,6 +187,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -197,6 +199,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -489,6 +492,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -536,8 +540,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -842,13 +846,18 @@
       {
         "filename": "power electronics trainer.kicad_sch",
         "name": "power electronics trainer",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "df7c2ec2-a71a-47ee-8895-b27dbfbc12ae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C1-6,D1-3,H1-4,J1-19,Q1-4,R1-12,U1-4",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "df7c2ec2-a71a-47ee-8895-b27dbfbc12ae",
+      "power electronics trainer"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

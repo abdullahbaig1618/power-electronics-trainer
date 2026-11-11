@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "library") (type "KiCad") (uri "D:/Abdullah/projects/power electronics trainer/lite/v3/library.pretty") (options "") (descr ""))
+	(lib (name "banana sockets") (type "KiCad") (uri "D:/Setups/KiCad/KiCad Libraries/Banana Sockets/banana sockets.pretty") (options "") (descr ""))
+)
